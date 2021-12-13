@@ -1,1 +1,53 @@
 @import url("./normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+}
+
+.header {
+  padding: 15px 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #fafafa;
+  text-transform: uppercase;
+}
+
+.logo {
+  flex: 0 0 35%;
+}
+
+.logo__link {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav {
+  flex: 0 0 35%;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.header__btn {
+  border: 2px solid #000;
+  border-radius: 3px;
+  padding: 10px 20px;
+  background: none;
+  text-transform: uppercase;
+}
