@@ -89,6 +89,11 @@
   color: #000;
 }
 
+.social__icon {
+  width: 24px;
+  height: auto;
+}
+
 .email__sidebar {
   position: fixed;
   top: 0;
