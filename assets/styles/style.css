@@ -230,3 +230,27 @@
   list-style-position: inside;
   font-size: 24px;
 }
+
+.contact__content {
+  margin-bottom: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__text {
+  margin-bottom: 64px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact__link {
+  margin: 0 auto;
+  border: 2px solid #000;
+  border-radius: 3px;
+  padding: 20px 30px;
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 24px;
+}
