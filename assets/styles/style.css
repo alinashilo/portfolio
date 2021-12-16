@@ -136,9 +136,9 @@
   font-weight: 700;
 }
 
-.about {
+.container {
   margin: 0 auto;
-  padding: 0 145px 0 100px;
+  padding: 20px 140px 40px 100px;
 }
 
 .title {
@@ -216,4 +216,17 @@
   top: 20px;
   left: 20px;
   transition: .3s;
+}
+
+.skills__text {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.skills__list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size: 24px;
 }
