@@ -112,8 +112,11 @@
 }
 
 .email__link {
+  display: block;
   margin-top: 25px;
   width: 0;
+  text-decoration: none;
+  color: #000;
   letter-spacing: .1em;
   transform: rotate(90deg);
 }
