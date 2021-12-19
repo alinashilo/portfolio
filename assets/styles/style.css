@@ -221,6 +221,78 @@
   transition: .3s;
 }
 
+.projects__list {
+  list-style-type: none;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.project__view {
+  grid-column: 1 / 9;
+  grid-row: 1 / -1;
+  z-index: 0;
+}
+
+.project__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+  filter: grayscale(100%);
+  transition: .3s;
+}
+
+.project__image:hover {
+  filter: grayscale(0);
+}
+
+.project__content {
+  grid-column: 8 / -1;
+  grid-row: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 60px 0;
+}
+
+.project__title {
+  font-family: 'Nunito', sans-serif;
+}
+
+.project__description {
+  border-radius: 3px;
+  padding: 20px;
+  background: #e4e1f1;
+  box-shadow: -5px 10px 10px -5px rgba(0, 0, 0, .7);
+  text-align: right;
+  z-index: 1;
+}
+
+.tech-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  column-gap: 20px;
+  list-style-type: none;
+}
+
+.project__link {
+  text-decoration: none;
+}
+
+.project__link_icon {
+  width: 24px;
+  height: auto;
+  transition: .3s;
+}
+
+.project__link_icon:hover {
+  transform: scale(1.2);
+}
+
 .skills__text {
   margin-bottom: 24px;
   font-size: 20px;
